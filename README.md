@@ -1,0 +1,2 @@
+# DisguiseFaceRecognition
+Resnet 18 is further trained using a relatively small custom-made dataset (fake vs real, masked vs unmasked, manually augmented images vs original ) for a binary classification task (disguise or not). The task is to use different data augmentation and loss functions/techniques to fit the model better in disguise face domain, but at the same time avoid overfitting as much as possible, given a small dataset.
